@@ -41,14 +41,17 @@
      <p>Which Bar will win? Vote in the comments below!</p>
     <p class = "container border lead text-success">These are some people I regularly interact with</p>
     <p>The image with the rounded corners is in the lai.html page!</p>
-    <ul>
-        <li><strong>Lai</strong></li>
+    <ul class="list-group">
+        <li class = "list-group-item"><strong>Lai</strong></li>
    
-        <li><img src="Photos/Lai.jpg" height="1080" width="1920" alt="Lai" class="rounded-circle spinner-grow "></li>
-        <li><a href="Lai.html" class="btn btn-primary active">Additional Photos</a></li>
-        <li><em>Luis</em></li>
-        <li><img src = "Photos/Luis.jpg" height="108" width="192" alt="Luis" class="img-thumbnail btn btn-primary disabled"></li>
-        <li><a href="Luis.html" target="_blank">Luis</a></li>
+        <li class = "list-group-item d-flex justify-content-between align-items-center">
+            <img src="Photos/Lai.jpg" height="1080" width="1920" alt="Lai" class="rounded-circle spinner-grow ">
+            <span  class = "badge bg-primary rounded-pill">999+</span>
+        </li>
+        <li class = "list-group-item active"><a href="Lai.html" class="btn btn-primary active">Additional Photos</a></li>
+        <li class = "list-group-item"><em>Luis</em></li>
+        <li class = "list-group-item"><img src = "Photos/Luis.jpg" height="108" width="192" alt="Luis" class="img-thumbnail btn btn-primary disabled"></li>
+        <li class = "list-group-item"><a href="Luis.html" target="_blank">Luis</a></li>
     </ul>
     <div class = "row">
         <button class="col-lg h1">Click pls</button>
@@ -168,6 +171,121 @@
         </tr>
     </tbody>
    </table>
+  <div class = "list-group list-group-horizontal">
+    <a href="virus.txt" class = "list-group-item list-group-item-action" >Super Mega Virus</a>
+    <a href="puppies.html" class = "list-group-item list-group-item-action">Puppies</a>
+  </div>
+  <ol class="list-group list-group-numbered">
+    <li class="list-group-item">First Number</li>
+    <li class="list-group-item">Second Number</li>
+    <li class="list-group-item">Fourth Number</li>
+  </ol>
+  <p style="text-align: center;">Who made this horrid website?</p>
+  <div class="card"  style="width:400px; margin-left: auto; margin-right: auto; display: block;">
+        <img class="card-img-top" src = "Photos/Colten.jpg" alt="card image">
+        <div class="card-body">
+            <ol>
+                <li>Colten, the guy pictured in the image above</li>
+                <li>Are you seriously asking? Look at the name of the webpage</li>
+                <li>The antecedent to the previously mentioned you is also Colten because he is the one who made the website and asked the stupid question. He also wrote this stupid response in the third person.</li>
+            </ol>
+        </div>
+  </div>
+  <button class = "button btn-outline-success "data-bs-toggle="collapse" data-bs-target ="#dropdowns">Dropdowns</button>
+  <div id = "dropdowns">
+    <div class="dropdown dropend">
+        <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle = "dropdown">
+            POKEMON THAT I KNOW
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class = "dropdown-item"href ="#">PIKACHU</a></li>
+            <li><a class = "dropdown-item"href ="#">CHARIZARD</a></li>
+            <li><a class = "dropdown-item"href ="#">THE FISH ONE</a></li>
+            <li><a class = "dropdown-item"href ="#">CHARMANDER</a></li>
+        </ul>
+      </div>
+      <div class="dropdown dropstart">
+        <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle = "dropdown">
+            POKEMON THAT I DON'T KNOW
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class = "dropdown-item"href ="#">PILOSWINE</a></li>
+            <li><a class = "dropdown-item"href ="#">KARRABLAST</a></li>
+            <li><a class = "dropdown-item"href ="#">MALAMAR</a></li>
+            <li><a class = "dropdown-item"href ="#">GLISCOR</a></li>
+            <li><hr class = "dropdown-divider"></hr></li>
+            <li class="dropdown-item">THERE ARE 1025 POKEMON! THERE IS NO WAY I AM GOING THROUGH ALL OF THOSE!!!! </li>
+        </ul>
+      </div>
+      <div class="dropdown ">
+        <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle = "dropdown">
+           RUNNING OUT OF DROPDOWN IDEAS
+        </button>
+        <ul class="dropdown-menu">
+            <li><h2 class = "dropdown-header">A header for the dropdown</h2></li>
+            <li><a class = "dropdown-item"href ="#">KARRABLAST</a></li>
+            <li><a class = "dropdown-item"href ="#">MALAMAR</a></li>
+            <li><a class = "dropdown-item"href ="#">GLISCOR</a></li>
+            <li><h2 class = "dropdown-header">Hahaha the only cool one is disabled</h2></li>
+            <li><a class = "dropdown-item disabled"href ="#">PIKACHU</a></li>
+        </ul>
+      </div>
+      <div class="dropup ">
+        <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle = "dropdown">
+           RUNNING OUT OF DROPDOWN IDEAS
+        </button>
+        <ul class="dropdown-menu">
+            <li><h2 class = "dropdown-header">A header for the dropdown</h2></li>
+            <li><a class = "dropdown-item"href ="#">1</a></li>
+            <li><a class = "dropdown-item"href ="#">2</a></li>
+            <li><a class = "dropdown-item"href ="#">3</a></li>
+            <li><h2 class = "dropdown-header">Hahaha the only cool one is disabled</h2></li>
+            <li><a class = "dropdown-item disabled"href ="#">3.14159265458979323846264338327950</a></li>
+        </ul>
+      </div>
+      
+
+
+
+
+
+
+
+
+    <div id = "accordion">
+        <div class="card">
+            <div class="card-header">
+                <a class = "btn" data-bs-toggle="collapse" href="#collapseOne">
+                    First Note on The Accordion
+                </a>
+            </div>
+            <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                DOOOOOOOOOOO
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <a class = "btn" data-bs-toggle="collapse" href="#collapseTwo">
+                    Second Note on The Accordion
+                </a>
+            </div>
+            <div id="collapseTwo" class="collapse show" data-bs-parent="#accordion">
+                RE
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <a class = "btn" data-bs-toggle="collapse" href="#collapseThree">
+                    Third Note on The Accordion
+                </a>
+            </div>
+            <div id="collapseThree" class="collapse show" data-bs-parent="#accordion">
+                MI
+            </div>
+        </div>
+    </div>      
+  </div>
   
+
 </body>
 </html>
